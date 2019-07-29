@@ -1,0 +1,103 @@
+onclick='document.getElementById("display").innerHTML ="1"'
+document.getElementById("display").innerHTML ="1"
+
+Elementos clase tecla:
+0: <img id="on" class="tecla" src="image/ON.png" alt="On">​
+1: <img id="sign" class="tecla" src="image/sign.png" alt="signo">​
+2: <img id="raiz" class="tecla" src="image/raiz.png" alt="raiz">​
+3: <img id="dividido" class="tecla divide" src="image/dividido.png" alt="dividido">​
+4: <img id="7" class="tecla" src="image/7.png" alt="7">​
+5: <img id="8" class="tecla" src="image/8.png" alt="8">​
+6: <img id="9" class="tecla" src="image/9.png" alt="9">​
+7: <img id="por" class="tecla multiplica" src="image/por.png" alt="por">​
+8: <img id="4" class="tecla" src="image/4.png" alt="4">​
+9: <img id="5" class="tecla" src="image/5.png" alt="5">​
+10: <img id="6" class="tecla" src="image/6.png" alt="6">​
+11: <img id="menos" class="tecla resta" src="image/menos.png" alt="menos">​
+12: <img id="1" class="tecla" src="image/1.png" alt="1" style="padding: 0px; transition: all 0.4s linear 0s;">​
+13: <img id="2" class="tecla" src="image/2.png" alt="2" style="padding: 0px; transition: all 0.4s linear 0s;">​
+14: <img id="3" class="tecla" src="image/3.png" alt="3">​
+15: <img id="0" class="tecla" src="image/0.png" alt="0">​
+16: <img id="punto" class="tecla" src="image/punto.png" alt="punto">​
+17: <img id="igual" class="tecla" src="image/igual.png" alt="igual">​
+18: <img id="mas" class="tecla suma" src="image/mas.png" alt="mas">​
+dividido: <img id="dividido" class="tecla divide" src="image/dividido.png" alt="dividido">​
+igual: <img id="igual" class="tecla" src="image/igual.png" alt="igual">
+​
+length: 19
+​
+mas: <img id="mas" class="tecla suma" src="image/mas.png" alt="mas">​
+menos: <img id="menos" class="tecla resta" src="image/menos.png" alt="menos">​
+on: <img id="on" class="tecla" src="image/ON.png" alt="On">​
+por: <img id="por" class="tecla multiplica" src="image/por.png" alt="por">​
+punto: <img id="punto" class="tecla" src="image/punto.png" alt="punto">​
+raiz: <img id="raiz" class="tecla" src="image/raiz.png" alt="raiz">​
+sign: <img id="sign" class="tecla" src="image/sign.png" alt="signo">
+rutina divide
+cociente = dividendo/divisor;
+	   operacion = operacion+oper1;
+	   console.log("oper1 ="+ oper1);
+	   operacion = operacion.replace("dividido","/");
+	   oper1="";
+   console.log(operacion);
+  
+    
+   console.log("dividendo es igual" + dividendo);
+   console.log(" divisor = " + cociente)
+    console.log("cociente = " + cociente)
+    document.getElementById("display").innerHTML =prod1; 
+	suma1=cociente
+	ss
+	}while(oper1.length<9);
+	oper1=oper1+cifra;
+  console.log(oper1)
+   document.getElementById("display").innerHTML =oper1; 
+   opern=Number(oper1);
+   
+   
+   
+    if(oper1!="dividido"){
+		   longnum=oper1.length
+		   
+		    //divisor = Number(oper1.slice(0,longnum-8));
+			divisor=opern;
+	   console.log("divisor =  " + divisor+"\n oper1: " + oper1);
+   
+	   oper1=""
+   console.log(operacion)
+   
+    cociente1 = dividendo/divisor;
+	 console.log( dividendo + "dividido entre " + divisor  + " = " + cociente1) 
+	  document.getElementById("display").innerHTML =cociente1; 
+	  suma1=cociente1;
+	  ans = cociente1;
+	  dividendo = cociente1
+	  
+	  divisor=1
+	   }
+	   
+	   ///////////////////
+	   case "**":
+		  factor1=opern
+	  prod1=factor1*factor1
+	   prod1$=String(prod1);
+		if(prod1>99999999){
+			prod1$=prod1.toExponential();
+		}
+		
+	 
+	 
+	 if((prod1$.length)>8){
+		 start$=prod1$.slice(0,4)
+		 end$=prod1$.slice(-4)
+		 prod1$=start$+" "+end$
+	 }
+	 document.getElementById("display").innerHTML =prod1$; 
+	  suma1=prod1;
+	  ans = prod1;
+	  prod1 = 1
+	  opern=0;
+	  
+	   if (oper1.slice(-2,-1)=="**"){
+		   prod1 = ans*ans;
+	   }
